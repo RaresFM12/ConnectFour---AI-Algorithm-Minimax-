@@ -47,3 +47,31 @@ ConnectFour---AI-Algorithm-Minimax-/
 │   └── ... (board representation, Minimax, evaluation)
 ├── .idea/          # IDE configuration (PyCharm / IntelliJ)
 └── README.md       # Project documentation
+
+---
+
+## 🚀 Getting started
+
+### Prerequisites
+- *Python 3.x* installed (Python 3.8+ recommended)
+- No external dependencies besides the Python standard library
+
+### Run the game
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/RaresFM12/ConnectFour---AI-Algorithm-Minimax-.git
+   cd ConnectFour---AI-Algorithm-Minimax-
+
+2. Navigate to the source folder and launch the game:
+
+  ```bash
+  cd src
+  python main.py
+
+3. Select your desired mode:
+
+  - Player vs Player
+  - Player vs AI (Minimax Algorithm)
+
