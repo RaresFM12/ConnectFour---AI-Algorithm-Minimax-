@@ -47,7 +47,7 @@ ConnectFour---AI-Algorithm-Minimax-/
 │   └── ... (board representation, Minimax, evaluation)
 ├── .idea/          # IDE configuration (PyCharm / IntelliJ)
 └── README.md       # Project documentation
-
+```
 ---
 
 ## 🚀 Getting started
@@ -69,7 +69,7 @@ ConnectFour---AI-Algorithm-Minimax-/
   ```bash
   cd src
   python main.py
-
+  ```
 3. Select your desired mode:
 
   - Player vs Player
