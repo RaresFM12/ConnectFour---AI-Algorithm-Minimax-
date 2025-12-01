@@ -1,10 +1,49 @@
-# ConnectFour---AI-Algorithm-Minimax-
-This is my ConnectFour game version where you can play against a friend or even the computer. The computer uses the Minimax AI algorithm(I never beat him)
+# Connect Four – Minimax AI
 
-The game starts with a menu where you can choose if you want to play against a friend or the computer.
-<img width="410" height="346" alt="snake1 – ui py 9_2_2025 10_11_52 AM" src="https://github.com/user-attachments/assets/40fc3dd1-df5e-46b1-b080-f449e6b17717" />
+This project is a Connect Four game implemented in Python, where you can play either against another human or against an AI opponent powered by the Minimax algorithm.  
+The focus of the project is on implementing adversarial search and heuristic evaluation to create a competitive computer player.
 
-Then, you can start to play and try to beat the computer. I assure you it's pretty hard :))
-<img width="253" height="220" alt="snake1 – ui py 9_2_2025 10_13_24 AM" src="https://github.com/user-attachments/assets/f0e7505e-ad6f-4972-b144-dc9753d74d1c" />
+---
 
+## 🎮 Features
 
+- *Two game modes*
+  - Player vs Player
+  - Player vs Computer (AI)
+- *AI opponent using Minimax*
+  - Simulates future moves and counter-moves
+  - Evaluates board states using a heuristic scoring function
+  - Chooses the move that maximizes its chances to win
+- *Valid move handling & win detection*
+  - Checks for horizontal, vertical and diagonal connects
+  - Handles invalid moves and full columns gracefully
+- *Simple, readable codebase*
+  - Clear separation between game logic and AI logic
+  - Easy to extend with new heuristics or UI
+
+---
+
+## 🧠 Minimax AI – How it works
+
+The AI uses the *Minimax algorithm*, a classic approach for turn-based, zero-sum games:
+
+- Builds a game tree of possible future board states up to a given search depth.
+- Alternates between:
+  - *Maximizing player* (the AI): tries to maximize the evaluation score.
+  - *Minimizing player* (the human): assumed to play optimally and minimize the score.
+- Uses a *heuristic evaluation function* to score non-terminal positions:
+  - Rewards positions where the AI has potential 2-in-a-row / 3-in-a-row patterns.
+  - Penalizes positions where the opponent has strong threats.
+- Returns the move with the best expected outcome under optimal play.
+
+---
+
+## 🏗️ Project structure
+
+```text
+ConnectFour---AI-Algorithm-Minimax-/
+├── src/
+│   ├── ... (game logic and AI implementation)
+│   └── ... (board representation, Minimax, evaluation)
+├── .idea/          # IDE configuration (PyCharm / IntelliJ)
+└── README.md       # Project documentation
