@@ -75,3 +75,12 @@ ConnectFour---AI-Algorithm-Minimax-/
   - Player vs Player
   - Player vs AI (Minimax Algorithm)
 
+---
+
+### 📚Purpose
+
+  - This project was developed as a practical exploration of:
+  - Turn-based adversarial search in deterministic games
+  - The Minimax algorithm implemented through recursive game-tree exploration
+  - Designing and tuning heuristic evaluation functions
+  - Building clean, modular Python code for game logic and AI behavior
